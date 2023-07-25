@@ -1,0 +1,279 @@
+#body_pag_princ{
+    margin: 1%;
+    background-color: rgb(0, 128, 0);
+    color: black;
+}
+
+#header_pag_princ{
+    background-color: rgb(139, 69, 19);
+    color: white;
+}
+
+#h1_pag_princ{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em 0.1em black;
+}
+
+#logo{
+    float: left;
+    padding: 1.25%;
+    width: 8%;
+    height: auto;
+}
+
+#redes{
+    float: right;
+    padding: 0.625%;
+    width: 5%;
+    height: auto;
+}
+
+#descripcion_pag_princ{
+    padding: 1%;
+    border: 1px solid black;
+    border-width: 2% 4%;
+}
+
+#img_talamp_princ{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#img_laguna_princ{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+#img_chaya_princ{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#body_talamp{
+    margin: 1%;
+    background-color: rgb(210, 180, 140);
+    color: black;
+}
+
+#header_talamp{
+    background-color: rgb(235, 108, 54);
+}
+
+h2{
+    text-align: center;
+}
+
+#h1_talamp{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em 0.1em grey;
+}
+
+#boton_talamp{
+    float:left
+}
+
+#descripcion_talamp{
+    padding: 1%;
+    border: 1px solid black;
+    border-width: 2% 4%;
+}
+
+#footer_talamp{
+    padding: 1%;
+}
+
+#mapa_talamp{
+    float: left;
+}
+
+#img_talamp1{
+    float: right;
+    width: 10%;
+    height: auto;
+}
+
+#img_talamp2{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#img_talamp3{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+#img_talamp4{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#img_talamp5{
+    float: right;
+    width: 22%;
+    height: auto;
+}
+
+#body_laguna{
+    margin: 1%;
+    background-color: rgb(135, 206, 250);
+    color: black;
+}
+
+#header_laguna{
+    background-color: rgb(0, 128, 128);
+}
+
+#h1_laguna{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em 0.1em grey;
+}
+
+#boton_laguna{
+    float:left
+}
+
+#descripcion_laguna{
+    padding: 1%;
+    border: 1px solid black;
+    border-width: 2% 4%;
+}
+
+#footer_laguna{
+    padding: 1%;
+}
+
+#mapa_laguna{
+    float: left;
+}
+
+#img_laguna1{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+#img_laguna2{
+    float: right;
+    width: 15%;
+    height: auto;
+}
+
+#img_laguna3{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+#video_laguna{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#body_chaya{
+    margin: 1%;
+    background-color: rgb(253, 253, 150);
+    color: black;
+}
+
+#header_chaya{
+    background-color: rgb(0, 0, 0);
+}
+
+#h1_chaya{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em 0.1em grey;
+}
+
+#boton_chaya{
+    float:left
+}
+
+#descripcion_chaya{
+    padding: 1%;
+    border: 1px solid black;
+    border-width: 2% 4%;
+}
+
+#footer_chaya{
+    padding: 1%;
+}
+
+#mapa_chaya1{
+    float: left;
+}
+
+#mapa_chaya2{
+    float: right;
+}
+
+#img_chaya1{
+    float: left;
+    width: 15%;
+    height: auto;
+}
+
+#img_chaya2{
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+#img_chaya3{
+    float: left;
+    width: 15%;
+    height: auto;
+}
+
+#img_chaya4{
+    float: right;
+    width: 15%;
+    height: auto;
+}
+
+
+.body_venta{
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#boton_venta{
+    float:left
+}
+
+.contenedor_venta{
+    display: flex;
+}
+
+.contenedor_talamp{
+    flex: 1;
+    padding: 1.25%;
+    border: 1px solid white;
+    border-width: 2% 4%;
+}
+
+.contenedor_laguna{
+    flex: 1;
+    padding: 1.25%;
+    border: 1px solid white;
+    border-width: 2% 4%;
+}
+
+.contenedor_chaya{
+    flex: 1;
+    padding: 1.25%;
+    border: 1px solid white;
+    border-width: 2% 4%;
+}

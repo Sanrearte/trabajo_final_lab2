@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armá Tu Viaje</title>
+    <script src="./funciones.js"></script>
+<link rel="stylesheet" href="./estilos.css">
+</head>
+<body class="body_venta">
+    <header>
+        <br>
+        <button id="boton_venta">
+            <a href="index.html" target="_blank">Regresar a Inicio</a>
+            </button>
+        <h1>
+            Armá tu viaje
+        </h1>
+    </header>
+    <br>
+    <form>
+        <div class="contenedor_venta">
+            <div class="contenedor_talamp">
+                <h2>
+                    Talampaya
+                </h2>
+                    <span>
+                        Cantidad de Adultos:
+                        <input type="number" placeholder="Adultos" id="cant_adultos1" name="cant_adultos1" required>*<br>(Mayores de 21 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Menores: 
+                        <input type="number" placeholder="Menores" id="cant_menores1" name="cant_menores1" required>*<br>(De 3 a 12 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Bebes: 
+                        <input type="number" placeholder="Bebes" id="cant_bebes1" name="cant_bebes1" required>*<br>(Hasta 2 años de edad)<br><br>
+                    </span>
+                    <span>
+
+                        Actividad:
+                        <select name="actividad" id="actividad">
+                            <option value=""></option>
+                            <option value="petro">Petroglifos</option>
+                            <option value="jardin">Petroglifos + Jardin Botanico</option>
+                            <option value="monje">Petroglifos + Jardin Botanico + El Monje</option>
+                            <option value="trekking">Petroglifos + Jardin Botanico + El Monje + Trekking</option>
+                        </select>
+                    </span>
+                    <br><br><br><br>
+                    <button type="button" onclick="actividades_talamp()">CALCULAR</button>
+                    <button type="button" onclick="borrar_talamp()">BORRAR</button>
+                    <br><br><br>
+                    Total a Pagar:<div id="result1"></div>
+            </div>
+            <div class="contenedor_laguna">
+                <h2>
+                    Laguna Brava
+                </h2>
+                    <span>
+                        Cantidad de Adultos:
+                        <input type="number" placeholder="Adultos" id="cant_adultos2" name="cant_adultos2" required>*<br>(Mayores de 21 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Menores: 
+                        <input type="number" placeholder="Menores" id="cant_menores2" name="cant_menores2" required>*<br>(De 3 a 12 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Bebes: 
+                        <input type="number" placeholder="Bebes" id="cant_bebes2" name="cant_bebes2" required>*<br>(Hasta 2 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Guía:<br>
+                        <input type="checkbox" id="tour_si" name="tour" value="tour_si">
+                        SI<br>
+                        <input type="checkbox" id="tour_no" name="tour" value="tour_no">
+                        NO<br><br>
+                    </span>
+                    <button type="button" onclick="actividades_laguna()">CALCULAR</button>
+                    <button type="button" onclick="borrar_laguna()">BORRAR</button>
+                    <br><br><br>
+                    Total a Pagar:<div id="result2"></div>
+            </div>
+            <div class="contenedor_chaya">
+                <h2>
+                    La Chaya
+                </h2>
+                    <span>
+                        Cantidad de Adultos:
+                        <input type="number" placeholder="Adultos" id="cant_adultos3" name="cant_adultos3" required>*<br>(Mayores de 21 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Menores: 
+                        <input type="number" placeholder="Menores" id="cant_menores3" name="cant_menores3" required>*<br>(De 3 a 12 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Cantidad de Bebes: 
+                        <input type="number" placeholder="Bebes" id="cant_bebes3" name="cant_bebes3" required>*<br>(Hasta 2 años de edad)<br><br>
+                    </span>
+                    <span>
+                        Entrada:
+                        <br>
+                        <input type="checkbox" id="platea_vip" name="entrada" value="platea_vip">
+                        Platea/VIP
+                        <br>
+                        <input type="checkbox" id="rancho_general" name="entrada" value="rancho_general">
+                        Rancho/General
+                    </span>
+                    <br><br>
+                    <button type="button" onclick="actividades_chaya()">CALCULAR</button>
+                    <button type="button" onclick="borrar_chaya()">BORRAR</button>
+                    <br><br><br>
+                    Total a Pagar:<div id="result3"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
